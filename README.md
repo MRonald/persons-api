@@ -26,7 +26,7 @@ Faça um POST para o seguinte endpoint:
 Modelo de entrada:
 ```
 {
-    "name": "Carlos",
+    "name": "Michael Ronald",
     "birthDate": "2000-11-11",
     "weight": 90.0,
     "height": 1.85,
