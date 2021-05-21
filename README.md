@@ -16,6 +16,16 @@ URL base para busca de endereços cadastrados (retorna a primeira página dos re
 Busca de endereços por ID:
 >[https://manager-persons-api.herokuapp.com/api/v1/addresses/1](https://manager-persons-api.herokuapp.com/api/v1/addresses/1)
 
+Paginação da API:
+>[https://manager-persons-api.herokuapp.com/api/v1/persons?page=0&size=5](https://manager-persons-api.herokuapp.com/api/v1/persons?page=0&size=5)
+
+Essa busca trás a primeira página dos resultados separando de 5 em 5.
+
+Paginação ordenada:
+>[https://manager-persons-api.herokuapp.com/api/v1/persons?page=0&size=5&sort=name,asc](https://manager-persons-api.herokuapp.com/api/v1/persons?page=0&size=5&sort=name,asc)
+
+Além de paginar, ordena a busca por nome na ordem ascendente.
+
 ## Manipulação de dados
 
 ### Adicionando pessoas
